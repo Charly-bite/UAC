@@ -1,0 +1,33 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+*.pdb
+*.exe
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Database & runtime files
+*.db
+*.sqlite
+*.sqlite3
+credentials.db
+
+# Reference assets & temporary scratch files
+*.png
+*.webp
+*.jpg
+*.jpeg
+/UAC
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
